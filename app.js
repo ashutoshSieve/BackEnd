@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 const io = new Server(server, {
     cors: {
-        origin: "https://tic-tac-toe-multiplayergame.netlify.app/",
+        origin: "https://tic-tac-toe-bay-six-32.vercel.app/",
         methods: ["GET", "POST"],
         credentials: true
     }
